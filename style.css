@@ -1,24 +1,27 @@
-html, body {
-    margin: 0;
-    height: 100%;
-    width: 100%;
-}
 body {
-    color: whitesmoke;
-}
-.grid-wrapper {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(autofill, minmax( 200px, 1fr ));
+	font: 'Raleway', sans-serif;
+    color: rgba(0,0,0,.5);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .5em;
+    top: 15%;
+	background: linear-gradient(to right, red , yellow); /* Standard syntax */
 }
 
-header {
-    background: linear-gradient(red, orange);
-    
+h1 {
+    font: 600 3.5em 'Raleway', sans-serif;
+    color: rgba(0,0,0,.5);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .5em;
+    width: 100%;
 }
-main {
-    background: linear-gradient(orange, yellow);
-}
-footer {
-    background: linear-gradient(yellow, green);
+
+h3 {
+	font: 900 1em 'Raleway', sans-serif;
+    color: rgba(0,0,0,.5);
+    text-align: center;
+    text-transform: none;
+    letter-spacing: 0.01em;
+
 }
